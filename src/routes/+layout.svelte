@@ -25,8 +25,7 @@
 			<li><a href="#produk">Produk</a></li>
 			<li><a href="#kontak">Kontak</a></li>
 		</ul>
-		
-		<!-- Buy Button -->
+
 		<button class="buy-button">Dimana kita beli?</button>
 	</div>
 </nav>
