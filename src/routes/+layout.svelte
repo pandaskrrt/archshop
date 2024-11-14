@@ -11,7 +11,7 @@
 		<div class="logo-content">
 			<div class="logo">Archshop</div>
 			
-			<!-- Hamburger Icon for Mobile -->
+	
 			<button class="hamburger" on:click={toggleMenu} aria-label="Toggle navigation">
 				<span class="hamburger-bar"></span>
 				<span class="hamburger-bar"></span>
@@ -19,7 +19,7 @@
 			</button>
 		</div>
 
-		<!-- Navigation Links -->
+	
 		<ul class="nav-links {isMenuOpen ? 'show' : ''}">
 			<li><a href="#beranda">Beranda</a></li>
 			<li><a href="#produk">Produk</a></li>
@@ -99,7 +99,7 @@
 		background-color: #f0f0f0;
 	}
 
-	/* Hamburger Button Styling */
+	
 	.hamburger {
 		display: none;
 		flex-direction: column;
@@ -116,7 +116,7 @@
 		margin: 4px 0;
 	}
 
-	/* Responsive Styling */
+
 	@media (max-width: 768px) {
 		.navbar-content {
 			flex-direction: column;
@@ -129,7 +129,7 @@
 		}
 
 		.nav-links {
-			display: none; /* Hide links by default on mobile */
+			display: none; 
 			flex-direction: column;
 			width: 100%;
 			margin-top: 10px;
@@ -137,18 +137,18 @@
 		}
 
 		.nav-links.show {
-			display: flex; /* Show links when menu is open */
+			display: flex;
 		}
 
 		.buy-button {
-			width: 100%; /* Full width button on mobile */
+			width: 100%; 
 			margin-top: 10px;
 			padding: 10px 0;
 			font-size: 1.2rem;
 		}
 
 		.hamburger {
-			display: flex; /* Show hamburger button on mobile */
+			display: flex;
 		}
 	}
 </style>
