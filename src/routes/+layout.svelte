@@ -34,12 +34,13 @@
 </main>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 	.navbar {
 		background-color: green; 
 		padding: 10px 0; 
 		width: 100%;
+		font-family: 'Poppins', sans-serif;
 	}
 
 	.navbar-content {
@@ -49,7 +50,6 @@
 		max-width: 1200px; 
 		margin: 0 auto; 
 		padding: 0 20px; 
-		font-family: 'Bebas Neue', sans-serif;
 	}
 
 	.logo-content {
@@ -61,7 +61,7 @@
 	.logo {
 		color: white;
 		font-size: 2rem; 
-		font-weight: bold;
+		font-weight: 600;
 	}
 
 	.nav-links {
@@ -76,7 +76,7 @@
 		color: white;
 		text-decoration: none;
 		font-size: 1.2rem; 
-		font-weight: bold;
+		font-weight: 600;
 	}
 
 	.nav-links li a:hover {
@@ -86,7 +86,7 @@
 	.buy-button {
 		background-color: white;
 		color: green;
-		font-weight: bold;
+		font-weight: 600;
 		border: none;
 		padding: 8px 20px;
 		cursor: pointer;
